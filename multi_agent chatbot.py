@@ -15,7 +15,7 @@ aiplatform.init(project="PROJECT_ID", location="your_LOCATION")
 model = GenerativeModel("gemini-2.0-flash") 
 # Initialize the Exa client
 #exa = exa_py.Exa(os.environ.get("EXA_API_KEY"))
-exa = exa_py.Exa('e1b6c48f-4af1-4b17-aa69-513c8d79e08a')
+exa = exa_py.Exa('your_exa_key')
 
 def tax_helper(user_query: str)-> str:
     """
